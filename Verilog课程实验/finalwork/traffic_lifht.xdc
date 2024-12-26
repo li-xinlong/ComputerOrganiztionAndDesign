@@ -1,0 +1,31 @@
+set_property PACKAGE_PIN P17 [get_ports  clk_in]
+set_property IOSTANDARD LVCMOS33 [get_ports  clk_in]
+set_property PACKAGE_PIN U4 [get_ports  rst]
+set_property IOSTANDARD LVCMOS33 [get_ports  rst]
+
+set_property PACKAGE_PIN F6 [get_ports red]
+set_property IOSTANDARD LVCMOS33 [get_ports red]
+set_property PACKAGE_PIN G4 [get_ports green]
+set_property IOSTANDARD LVCMOS33 [get_ports green]
+set_property PACKAGE_PIN G3 [get_ports yellow]
+set_property IOSTANDARD LVCMOS33 [get_ports yellow]
+
+
+set_property PACKAGE_PIN C2 [get_ports one]
+set_property IOSTANDARD LVCMOS33 [get_ports one]
+
+
+set_property PACKAGE_PIN B4 [get_ports {seg_ones[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg_ones[0]}]
+set_property PACKAGE_PIN A4 [get_ports {seg_ones[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg_ones[1]}]
+set_property PACKAGE_PIN A3 [get_ports {seg_ones[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg_ones[2]}]
+set_property PACKAGE_PIN B1 [get_ports {seg_ones[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg_ones[3]}]
+set_property PACKAGE_PIN A1 [get_ports {seg_ones[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg_ones[4]}]
+set_property PACKAGE_PIN B3 [get_ports {seg_ones[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg_ones[5]}]
+set_property PACKAGE_PIN B2 [get_ports {seg_ones[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg_ones[6]}]
